@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atributos en HTML</title>
+</head>
+
+<body>
+    <h4>
+        Los atributos proveen Información adicional acerca de los elemnetos HTML.
+    </h4>
+    <ol>
+        <li>Todos los elementos HTML pueden tener atributos.</li>
+        <li>
+            Los atributos proveen informacion adicional acerca de los elementos.
+        </li>
+        <li>Los atributos simpre son especificados al inicio de una etiqueta.</li>
+        <li>
+            Los atributos usualmente tienen la siguiente estructura: &lt;tag<b>
+                nombreAtributo="valorAtributo"</b>&gt;&lt;tag&gt;.
+        </li>
+        <li>Los valores de los atributos siempre van rodeados de <b>"Comillas dobles"</b></li>
+    </ol>
+
+    <h3>Ejemplo de elementos con sus respectivos atibutos:</h3>
+
+    <h4>Etiqueta &lt;a&gt;</h4>
+    <p>
+        Este elemento ancla define un hyperlink y el atributo:
+        <b>href</b> especifica la dirección de la pagina a redirigirse.
+    </p>
+    <p>&lt;a <b>href="../url"</b> &gt;&lt;/a&gt;</p>
+    <h4>Etiqueta &lt;img&gt;</h4>
+    <p>
+        Este elemento a traves de su atributo <b>src (source)</b> se especifica la
+        ruta de la imagen a mostrar
+    </p>
+    <p>&lt;img <b>src="../urlImg.jpg"</b> &gt;</p>
+
+    <h5>Atributo width(ancho) y height(Alto)</h5>
+    <p>Estos atributos establecen el ancho y alto de la imagen</p>
+    <ul>
+        <li>
+            <p>Por lo regular el tamaño se establece atraves de <b>CSS</b></p>
+        </li>
+    </ul>
+    <p>
+        &lt;img <b>src</b>="./urlImg.jpg" <b>width</b>="500"
+        <b>height</b>="600"&gt;
+    </p>
+
+    <h5>Atributo &lt;alt&gt; (Texto Alternativo)</h5>
+    <p>
+        Es recomendable colocar este atributo para las imagenes, por si alguna
+        razón la imagen no se pudiera mostrar, se colocará un texto describiendo
+        la imagen en su lugar.
+    </p>
+    <p>&lt;img <b>src</b>="./urlImg.jpg" <b>alt</b>="Imagen de Patos."&gt;</p>
+
+    <h5>Atributo style (Estilo)</h5>
+    <p>
+        Este atributo permite añadir estilos a un elemento, cambiar color, tamaño,
+        letra y más.
+    </p>
+    <p>&lt;a <b>href="../url"</b> <b>style="color:green;"</b> &gt;&lt;/a&gt;</p>
+    <p style="color: blue">
+        Soy un ejemplo de <b style="color: brown"> "style"</b>.
+    </p>
+
+    <h4>Etiqueta &lt;p&gt; (Parrafo)</h4>
+    <h5>Atributo <b>title</b>.</h5>
+    <p>
+        Este atributo nos permite dar informacion extra acerca del elemento, el
+        valor se mostrará como un tooltip cuando el mause pase sobre el elemnto
+    </p>
+    <p>&lt;p <b>tittle="Información del Elemento"</b>&gt;&lt;/p&gt;</p>
+    <p title="Soy un Párrafo" style="color: aquamarine">
+        Coloca el ratón sobre mi
+    </p>
+
+    <img src="imgHTML/2.png" alt="Ejemplo atributo, Title." border="4" />
+</body>
+
+</html>
