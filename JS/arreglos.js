@@ -18,6 +18,7 @@ let array = [];
 //console.log('typeof(array) :>> ', typeof(array));
 //ARRAY con valores
 let array2 = [
+    [1,2,true],
     "Cadenas de texto",
     7445074144,
     true,
@@ -28,16 +29,16 @@ let array2 = [
         "otro objeto" : {
             a : 1,
             b :10
-        }
+        },
     }
 ];
 
 
-console.log('Posición 3 :>> ', array2[3]);
+console.log('Posición 0 :>> ', array2[0]);
 //console.log('typeof de la Posición 3 :>> ', typeof(array2[3]));
 //console.log('array2 :>> ', typeof(array2[3].boolean));
-console.log('Propiedades con espacios :>> ', array2[3]["otro objeto"]);
-console.log('Propiedades con espacios :>> ', array2[3]["otro objeto"].b);
+console.log('Propiedades con espacios :>> ', array2[4]["otro objeto"]);
+console.log('Propiedades con espacios :>> ', array2[4]["otro objeto"].b);
 
 
 

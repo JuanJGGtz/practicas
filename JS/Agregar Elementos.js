@@ -17,7 +17,8 @@ secuenciaNumeros.push('VII');//Agregamos "VII" como un elemento mas
 //[ 1, 'dos', 'III', [ 4, 'V', 'seis' ], 'VII' ]
 
 console.log(secuenciaNumeros);//Devuelve el total de elementos 4
-
+secuenciaNumeros.push([9,8,7],9);
+console.log(secuenciaNumeros);//Devuelve el total de elementos 4
 /**
  *  AGREGAR UNO O MAS ELEMENTOS AL INICIO
  *  .PUSH 
