@@ -33,8 +33,17 @@ let thisArray = ['sage', 'rosemary', 'parsley', 'thyme'];
 
 let thatArray = ['basil', 'cilantro', 'coriander'];
 
-thisArray.splice(1,0,thatArray)
-console.log('thisArray :>> ', thisArray);
+//thisArray.splice(1,0,thatArray)
+//console.log('thisArray 1 :>> ', thisArray);
 
-thisArray += [...thatArray];
-console.log('thisArray :>> ', thisArray);
+//CONVIRTIENDO ARRAY A STRING
+//thisArray += [...thatArray];
+//console.log('thisArray :>> ', thisArray);
+
+/**
+ * COMBINAR ARRAYS
+ */
+
+const merge = [...thatArray,...thisArray];
+
+console.log('merge :>> ', merge);
