@@ -6,6 +6,7 @@
  * Recibe hasta tres parametros
  *  
  * array.splice(posicion,numeroDeElementos,elementoRemplazo);
+ * arr.splice(start[, deleteCount, elem1, ..., elemN])
  */
 
 //ELIMINAR TODO A PARTIR DE UN NUMERO

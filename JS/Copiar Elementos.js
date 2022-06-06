@@ -28,3 +28,18 @@ console.log('copiaSlice :>> ', copiaSlice);
 console.log('copiasinSlice :>> ', copiasinSlice);
 console.log('num :>> ', num);
 
+const x = [2,3];
+const y = x;
+
+const z = x.slice();
+
+console.log('x :>> ', x);
+console.log('y :>> ', y);
+console.log('z :>> ', z);
+
+
+if (x === z) {
+    console.log('X == Z');
+}else{
+    console.log('Por referencia X es != Z');
+}
