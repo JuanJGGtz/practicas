@@ -12,12 +12,12 @@
  *slice(start, end)
  */
 //COPIAR UN GRUPO DE ELEMENTOS
-const numeros = ['uno','II','III',4];
-const numeroRomanos = numeros.slice(1,3);//-> OJO con el ultimo elemento a tomar
+const numeros = ['uno', 'II', 'III', 4];
+const numeroRomanos = numeros.slice(1, 3);//-> OJO con el ultimo elemento a tomar
 console.log('numeroRomanos :>> ', numeroRomanos);
 
 //COPIAR ARREGLO
-const num = [1,2,3,4,5];
+const num = [1, 2, 3, 4, 5];
 
 const copiaSlice = num.slice();
 
@@ -28,7 +28,7 @@ console.log('copiaSlice :>> ', copiaSlice);
 console.log('copiasinSlice :>> ', copiasinSlice);
 console.log('num :>> ', num);
 
-const x = [2,3];
+const x = [2, 3];
 const y = x;
 
 const z = x.slice();
@@ -40,6 +40,22 @@ console.log('z :>> ', z);
 
 if (x === z) {
     console.log('X == Z');
-}else{
+} else {
     console.log('Por referencia X es != Z');
+}
+for (let i = 0; i < 8; i++) {
+    if (i % 2 == 0) {
+        console.log("#");
+    } else {
+        console.log("\n");
+    }
+    for (let i = 0; i < 8; i++) {
+        if (i % 2 == 0) {
+            console.log("#");
+        } else {
+            console.log("\n");
+        }
+
+    }
+
 }
