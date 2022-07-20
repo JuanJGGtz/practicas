@@ -1,1 +1,1 @@
-newStr
+strings
